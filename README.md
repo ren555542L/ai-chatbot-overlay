@@ -20,10 +20,10 @@ flutter run -d windows --dart-define=GEMINI_API_KEY=YOUR_API_KEY_HERE
 Build for Windows
 flutter build windows --dart-define=GEMINI_API_KEY=YOUR_API_KEY_HERE
 ```
-Tech Stack
-Flutter Desktop
-Dart
-Gemini API
-window_manager
-hotkey_manager
-flutter_markdown
+Tech Stack :-
+ - Flutter Desktop
+ - Dart
+ - Gemini API
+ - window_manager
+ - hotkey_manager
+ - flutter_markdown
