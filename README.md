@@ -1,16 +1,29 @@
-# ai_chatbot_overlay
+# AI Desktop Overlay Assistant
 
-A new Flutter project.
+A Flutter Windows desktop AI assistant overlay that opens with a global shortcut and can explain copied text/code using Gemini API.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Global shortcut overlay
+- Ctrl + Space to show/hide
+- Ctrl + Shift + Space to explain clipboard content
+- Explain, Debug, Summarize, and Make Notes buttons
+- Gemini API integration
+- Markdown response rendering
 
-A few resources to get you started if this is your first Flutter project:
+## Run Locally
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+flutter pub get
+flutter run -d windows --dart-define=GEMINI_API_KEY=YOUR_API_KEY_HERE
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Build for Windows
+flutter build windows --dart-define=GEMINI_API_KEY=YOUR_API_KEY_HERE
+```
+Tech Stack
+Flutter Desktop
+Dart
+Gemini API
+window_manager
+hotkey_manager
+flutter_markdown
